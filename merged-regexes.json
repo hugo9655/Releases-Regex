@@ -13,15 +13,15 @@
   },
   {
     "name": "Bluray T1",
-    "pattern": "/^(?=.*\\bBlu[-_]?Ray\\b)(?!.*\\bRemux\\b)(?!.*\\bWEB[-_.]?(?:DL|Rip)\\b)(?=.*(?:\\b(?:BBQ|c0kE|Chotab|CRiSC|Dariush|decibeL|EbP|EDPH|LolHD|MainFrame|NCmt|PTer|TayTO|TDD|TnP|VietHD|ZoroSenpai|ZQ|DON|Geek)\\b|-BMF)).*/i"
+    "pattern": "/(?<!remux.*)(blu[ .\\-_]?ray|((bd|br)[ .\\-_]?rip))(?!.*remux).*\\b(BBQ|c0kE|Chotab|CRiSC|Dariush|decibeL|EbP|EDPH|LolHD|MainFrame|NCmt|PTer|TayTO|TDD|TnP|VietHD|ZoroSenpai|ZQ|DON|Geek|BMF)\\b/i"
   },
   {
     "name": "Bluray T2",
-    "pattern": "/^(?=.*\\bBlu[-_]?Ray\\b)(?!.*\\bRemux\\b)(?!.*\\bWEB[-_.]?(?:DL|Rip)\\b)(?=.*\\b(?:HiDt|HiSD|QOQ)\\b).*/i"
+    "pattern": "/(?<!remux.*)(blu[ .\\-_]?ray|((bd|br)[ .\\-_]?rip))(?!.*remux).*\\b(HiDt|HiSD|QOQ)\\b/i"
   },
   {
     "name": "Bluray T3",
-    "pattern": "/^(?=.*\\bBlu[-_]?Ray\\b)(?!.*\\bRemux\\b)(?!.*\\bWEB[-_.]?(?:DL|Rip)\\b)(?=.*\\b(?:ATELiER|hallowed|HiFi|HONE|SPHD|WEBDV|playHD|iFT|NTb|D-Z0N3|EA|HANDJOB|SA89|sbR|LoRD|Flights|CtrlHD)\\b).*/i"
+    "pattern": "/(?<!remux.*)(blu[ .\\-_]?ray|((bd|br)[ .\\-_]?rip))(?!.*remux).*\\b(ATELiER|hallowed|HiFi|HONE|SPHD|WEBDV|playHD|iFT|NTb|D-Z0N3|EA|HANDJOB|SA89|sbR|LoRD|Flights|CtrlHD)\\b/i"
   },
   {
     "name": "Web T1",
