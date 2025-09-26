@@ -33,7 +33,7 @@
   },
   {
     "name": "Web T3",
-    "pattern": "/(?<=(web[ .\\-_]?(dl|rip)).*)\\b(GNOMiSSiON|NINJACENTRAL|ROCCaT|SLiGNOME|SwAgLaNdEr|T4H|DRACULA|ViSiON|Flights)\\b/i"
+    "pattern": "/(?<=(web[ .\\-_]?(dl|rip)).*)\\b(GNOMiSSiON|NINJACENTRAL|ROCCaT|SLiGNOME|SwAgLaNdEr|T4H|DRACULA|ViSiON)\\b/i"
   },
   {
     "name": "Bad",
