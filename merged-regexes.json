@@ -1,15 +1,15 @@
 [
   {
     "name": "Remux T1",
-    "pattern": "/\\bRemux\\b.*\\b(3L|BiZKiT|BLURANiUM|CiNEPHiLES|PmP|PiRAMiDHEAD|ZQ|EPSiLON|SiCFoI|decibeL|HiFi|NTb|SURFINBIRD|TEPES)\\b|-BMF|-WiLDCAT/i"
+    "pattern": "/\\bremux\\b.*\\b(3L|BiZKiT|BLURANiUM|CiNEPHiLES|PmP|PiRAMiDHEAD|ZQ|EPSiLON|SiCFoI|decibeL|HiFi|SURFINBIRD|TEPES)\\b|-BMF|-WiLDCAT/i"
   },
   {
     "name": "Remux T2",
-    "pattern": "/\\bRemux\\b.*\\b(NCmt|playBD|PTer|TRiToN|FraMeSToR|iFT)\\b/i"
+    "pattern": "/\\bremux\\b.*\\b(NCmt|playBD|PTer|TRiToN|FraMeSToR|iFT|NTb)\\b/i"
   },
   {
     "name": "Remux T3",
-    "pattern": "/\\bRemux\\b.*\\b(ATELiER|PTP|SumVision|TOA|KRaLiMaRKo)\\b/i"
+    "pattern": "/\\bremux\\b.*\\b(ATELiER|PTP|SumVision|TOA|KRaLiMaRKo)\\b/i"
   },
   {
     "name": "Bluray T1",
@@ -25,15 +25,15 @@
   },
   {
     "name": "Web T1",
-    "pattern": "/^(?=.*\\bWEB[-_.]?(?:DL|RIP)\\b)(?=.*\\b(?:ABBIE|AJP69|PAXA|PEXA|XEPA|BLUTONiUM|CasStudio|CMRG|CRFW|CRUD|CtrlHD|GNOME|HONE|Kitsune|monkee|NOSiViD|NTb|NTG|QOQ|RTN|SiC|TEPES|TheFarm|T6D|ViSUM|APEX|FLUX|KiNGS|TOMMY)\\b).*/i"
+    "pattern": "/(?<=(web[ .\\-_]?(dl|rip)).*)\\b(ABBIE|AJP69|PAXA|PEXA|XEPA|BLUTONiUM|CasStudio|CMRG|CRFW|CRUD|CtrlHD|GNOME|HONE|Kitsune|monkee|NOSiViD|NTb|NTG|QOQ|RTN|SiC|TEPES|TheFarm|T6D|ViSUM|APEX|FLUX|KiNGS|TOMMY)\\b/i"
   },
   {
     "name": "Web T2",
-    "pattern": "/^(?=.*\\bWEB[-_.]?(?:DL|RIP)\\b)(?=.*\\b(?:3cTWeB|BTW|BYNDR|Cinefeel|CiT|Coo7|dB|FC|iJP|iKA|iT00NZ|JETIX|KHN|MiU|MZABI|NPMS|NYH|orbitron|playWEB|PSiG|RAWR|ROCCaT|RTFM|SA89|SbR|SDCC|TVSmash|WELP|XEBEC|4KBEC|CEBEX|DEEP|END|ETHiCS|KiMCHI|LAZY|PHOENiX|SIGMA|SMURF|SPiRiT)\\b).*/i"
+    "pattern": "/(?<=(web[ .\\-_]?(dl|rip)).*)\\b(3cTWeB|BTW|BYNDR|Cinefeel|CiT|Coo7|dB|FC|iJP|iKA|iT00NZ|JETIX|KHN|MiU|MZABI|NPMS|NYH|orbitron|playWEB|PSiG|RAWR|ROCCaT|RTFM|SA89|SbR|SDCC|TVSmash|WELP|XEBEC|4KBEC|CEBEX|DEEP|END|ETHiCS|KiMCHI|LAZY|PHOENiX|SIGMA|SMURF|SPiRiT)\\b/i"
   },
   {
     "name": "Web T3",
-    "pattern": "/^(?=.*\\bWEB[-_.]?(?:DL|RIP)\\b)(?=.*\\b(?:GNOMiSSiON|NINJACENTRAL|ROCCaT|SLiGNOME|SwAgLaNdEr|T4H|DRACULA|ViSiON|Flights)\\b).*/i"
+    "pattern": "/(?<=(web[ .\\-_]?(dl|rip)).*)\\b(GNOMiSSiON|NINJACENTRAL|ROCCaT|SLiGNOME|SwAgLaNdEr|T4H|DRACULA|ViSiON|Flights)\\b/i"
   },
   {
     "name": "Web Scene",
@@ -41,14 +41,14 @@
   },
   {
     "name": "Bad",
-    "pattern": "/(?<=((blu[ .\\-_]?ray|((bd|br)[ .\\-_]?rip))|(web[ .\\-_]?(dl|rip))|(remux)).*)\b(alfaHD.*|BAT|BlackBit|BNd|C\\.A\\.A|Cory|EXTREME|FF|FOXX|G4RiS|GUEIRA|LCD|N3G4N|ONLYMOViE|PD|PTHome|RiPER|RK|SiGLA|Tars|tokar86a|TvR|vnlls|WTV|Yatogam1|YusukeFLA|ZigZag|ZNM|BiOMA|BiTOR|DepraveD|SasukeducK|tarunk9c|VD0N|VECTOR|BRiNK|BTM|CHX|CTFOH|d3g|EVO|Feranki1980|FGT|FMD|GHOSTS|HiQVE|iNTENSO|iVy|JFF|KC|MeGusta|nhanc3|OFT|Pahe|PSA|SHD|ShieldBearer|TBS|TG|VIDEOHOLE|worldmkv|XLF|Zero00|1XBET|BiTOR|BEN[ ._-]THE[ ._-]MEN|CREATiVE24|Feranki1980|GalaxyRG|jennaortega(UHD)?|READ[\\s.]+NOTE|SWTYBLZ|TeeWee|TEKNO3D|Will1869|24xHD|41RGB|4K4U|AOC|AROMA|aXXo|AZAZE|BARC0DE|BAUCKLEY|BdC|beAst|BTM|C1NEM4|C4K|CDDHD|CHAOS|CHD|CiNE|COLLECTiVE|CREATiVE24|CrEwSaDe|DDR|DNL|EPiC|EuReKA|FaNGDiNG0|Feranki1980|FGT|FMD|FRDS|FZHD|GalaxyRG|GHD|GPTHD|HDHUB4U|HDS|HDT|HDTime|HDWinG|iNTENSO|iPlanet|iVy|JFF|KC|KiNGDOM|KIRA|L0SERNIGHT|LAMA|Leffe|Liber8|LiGaS|LUCY|MarkII|mHD|mSD|MTeam|MT|MySiLU|NhaNc3|nHD|nikt0|NoGr(ou)?p|nSD|PATOMiEL|PRODJi|PTNK|RARBG|RDN|Rifftrax|RU4HD|SANTi|ShieldBearer|STUTTERSHIT|SUNSCREEN|TBS|TEKNO3D|Tigole|TIKO|VISIONPLUSHDR(-X|1000)?|WAF|WiKi|x0r|YIFY|YTS|Zeus|D3US|DRX|BHDStudio|HQMUX|W4NK3R)\b/i"
+    "pattern": "/(?<=((blu[ .\\-_]?ray|((bd|br)[ .\\-_]?rip))|(web[ .\\-_]?(dl|rip))|(remux)).*)\\b(alfaHD.*|BAT|BlackBit|BNd|C\\.A\\.A|Cory|EXTREME|FF|FOXX|G4RiS|GUEIRA|LCD|N3G4N|ONLYMOViE|PD|PTHome|RiPER|RK|SiGLA|Tars|tokar86a|TvR|vnlls|WTV|Yatogam1|YusukeFLA|ZigZag|ZNM|BiOMA|BiTOR|DepraveD|SasukeducK|tarunk9c|VD0N|VECTOR|BRiNK|BTM|CHX|CTFOH|d3g|EVO|Feranki1980|FGT|FMD|GHOSTS|HiQVE|iNTENSO|iVy|JFF|KC|MeGusta|nhanc3|OFT|Pahe|PSA|SHD|ShieldBearer|TBS|TG|VIDEOHOLE|worldmkv|XLF|Zero00|1XBET|BiTOR|BEN[ ._-]THE[ ._-]MEN|CREATiVE24|Feranki1980|GalaxyRG|jennaortega(UHD)?|READ[\\s.]+NOTE|SWTYBLZ|TeeWee|TEKNO3D|Will1869|24xHD|41RGB|4K4U|AOC|AROMA|aXXo|AZAZE|BARC0DE|BAUCKLEY|BdC|beAst|BTM|C1NEM4|C4K|CDDHD|CHAOS|CHD|CiNE|COLLECTiVE|CREATiVE24|CrEwSaDe|DDR|DNL|EPiC|EuReKA|FaNGDiNG0|Feranki1980|FGT|FMD|FRDS|FZHD|GalaxyRG|GHD|GPTHD|HDHUB4U|HDS|HDT|HDTime|HDWinG|iNTENSO|iPlanet|iVy|JFF|KC|KiNGDOM|KIRA|L0SERNIGHT|LAMA|Leffe|Liber8|LiGaS|LUCY|MarkII|mHD|mSD|MTeam|MT|MySiLU|NhaNc3|nHD|nikt0|NoGr(ou)?p|nSD|PATOMiEL|PRODJi|PTNK|RARBG|RDN|Rifftrax|RU4HD|SANTi|ShieldBearer|STUTTERSHIT|SUNSCREEN|TBS|TEKNO3D|Tigole|TIKO|VISIONPLUSHDR(-X|1000)?|WAF|WiKi|x0r|YIFY|YTS|Zeus|D3US|DRX|BHDStudio|HQMUX|W4NK3R)\\b/i"
   },
   {
     "name": "Bad Anime",
-    "pattern": "/\b(\\$tore-Chill|0neshot|A-Destiny|AceAres|AhmadDev|AnimeDynastyEN|AnimeKuro|AnimeRG|Animesubs|AnimeTR|Anitsu|AniVoid|ArataEnc|AREY|ASW|BJX|BlackLuster|bonkai77|CameEsp|Cat66|CBBCerberus|CuaP|DARKFLiX|DBArabic|DKB|DP|DsunS|ExREN|(Baked|Dead|Space)Fish|FunArts|GERMini|Hakata[ .-]?Ramen|Hall_of_C|HAV1T|HENiL|HollowRoxas|ICEBLUE|iPUNISHER|JacobSwaggedUp|Johnny-englishsubs|Kanjouteki|KEKMASTERS|Kirion|KQRM|KRP|LoliHouse|M@nI|mal[ .-]lu[ .-]zen|Man\\.KMaximus|mdcx|Metaljerk|MGD|Mites|Modders[ .-]?Bay|Mr\\.Deadpool|NemDiggers|neoHEVC|Nokou|N[eo][wo]b[ ._-]?Subs|NS|Nyanpasu|OldCastle|phazer11|Plex[ .-]?Friendly|PnPSubs|Polarwindz|Project-gxs|PuyaSubs|QAS|QCE|Rando235Ranger|M2TS|BDMV|BDVD|Reaktor|RightShiftBy2|Rip[ .-]?Time|Salieri|Samir755|SanKyuu|sekkusu&ok|SHFS|shincaps|SLAX|SRW|SSA|StrayGods|TeamTurquoize|Tenrai[ .-]?Sensei|TnF|TOPKEK|U3-Web|Valenciano|VipapkStudios|WtF[ ._-]?Anime|xiao-av1|Yabai_Desu_NeRandomRemux|YakuboEncodes|youshikibi|YuiSubs|Anime[ .-]?(Chap|Land|Time)|Mini(Freeza|MTBB|sCuba|Theatre)|(Asuka|Beatrice|Daddy|Fumi|Iriza|Kawaiika|Koi|Lilith|LowPower|Nanako|NC|neko|New|Ohys|Pandoratv|Scryous|Seicher|Shiniori)[ ._-]?Raws|Deadmau[ .-]*RAWS|Raws-Maji|Moozzi2|Golumpa|KaiDubs|KamiFS|torenter69|Yameii)\b/i"
+    "pattern": "/\\b(\\$tore-Chill|0neshot|A-Destiny|AceAres|AhmadDev|AnimeDynastyEN|AnimeKuro|AnimeRG|Animesubs|AnimeTR|Anitsu|AniVoid|ArataEnc|AREY|ASW|BJX|BlackLuster|bonkai77|CameEsp|Cat66|CBBCerberus|CuaP|DARKFLiX|DBArabic|DKB|DP|DsunS|ExREN|(Baked|Dead|Space)Fish|FunArts|GERMini|Hakata[ .-]?Ramen|Hall_of_C|HAV1T|HENiL|HollowRoxas|ICEBLUE|iPUNISHER|JacobSwaggedUp|Johnny-englishsubs|Kanjouteki|KEKMASTERS|Kirion|KQRM|KRP|LoliHouse|M@nI|mal[ .-]lu[ .-]zen|Man\\.KMaximus|mdcx|Metaljerk|MGD|Mites|Modders[ .-]?Bay|Mr\\.Deadpool|NemDiggers|neoHEVC|Nokou|N[eo][wo]b[ ._-]?Subs|NS|Nyanpasu|OldCastle|phazer11|Plex[ .-]?Friendly|PnPSubs|Polarwindz|Project-gxs|PuyaSubs|QAS|QCE|Rando235Ranger|M2TS|BDMV|BDVD|Reaktor|RightShiftBy2|Rip[ .-]?Time|Salieri|Samir755|SanKyuu|sekkusu&ok|SHFS|shincaps|SLAX|SRW|SSA|StrayGods|TeamTurquoize|Tenrai[ .-]?Sensei|TnF|TOPKEK|U3-Web|Valenciano|VipapkStudios|WtF[ ._-]?Anime|xiao-av1|Yabai_Desu_NeRandomRemux|YakuboEncodes|youshikibi|YuiSubs|Anime[ .-]?(Chap|Land|Time)|Mini(Freeza|MTBB|sCuba|Theatre)|(Asuka|Beatrice|Daddy|Fumi|Iriza|Kawaiika|Koi|Lilith|LowPower|Nanako|NC|neko|New|Ohys|Pandoratv|Scryous|Seicher|Shiniori)[ ._-]?Raws|Deadmau[ .-]*RAWS|Raws-Maji|Moozzi2|Golumpa|KaiDubs|KamiFS|torenter69|Yameii)\\b/i"
   },
   {
     "name": "Bad Anime 2",
-    "pattern": "/[\\[-](?<Case_Sensitive_Anime_Groups>\b(224|Ari|Cerberus|Cleo|Daddy(Subs)?|Emmid|FAV|Hatsuyuki|Hitok[iu]|HR|Kallango|Maximus|MD|Pantsu|Pao|Pixel|Ranger|Rapta|Raze|SAD|SEiN|Sokudo|Suki[ .-]?Desu|Trix|UNBIASED|USD|Wardevil|Yun|zza|DB|uP|km|ReinForce)\b)/"
+    "pattern": "/[\\[-](?<Case_Sensitive_Anime_Groups>\\b(224|Ari|Cerberus|Cleo|Daddy(Subs)?|Emmid|FAV|Hatsuyuki|Hitok[iu]|HR|Kallango|Maximus|MD|Pantsu|Pao|Pixel|Ranger|Rapta|Raze|SAD|SEiN|Sokudo|Suki[ .-]?Desu|Trix|UNBIASED|USD|Wardevil|Yun|zza|DB|uP|km|ReinForce)\\b)/"
   }
 ]
