@@ -29,7 +29,7 @@
   },
   {
     "name": "Web T2",
-    "pattern": "/(?<=(web[ .\\-_]?(dl|rip)).*)\\b(3cTWeB|BTW|BYNDR|Cinefeel|CiT|Coo7|dB|FC|iJP|iKA|iT00NZ|JETIX|KHN|MiU|MZABI|NPMS|NYH|orbitron|playWEB|PSiG|RAWR|ROCCaT|RTFM|SA89|SbR|SDCC|TVSmash|WELP|XEBEC|4KBEC|CEBEX|DEEP|END|ETHiCS|KiMCHI|LAZY|PHOENiX|SIGMA|SMURF|SPiRiT)\\b/i"
+    "pattern": "/(?<=(web[ .\\-_]?(dl|rip)).*)\\b(3cTWeB|BTW|BYNDR|Cinefeel|CiT|Coo7|dB|FC|iJP|iKA|iT00NZ|JETIX|KHN|MiU|MZABI|NPMS|NYH|orbitron|playWEB|PSiG|RAWR|ROCCaT|RTFM|SA89|SbR|SDCC|TVSmash|WELP|XEBEC|4KBEC|CEBEX|DEEP|END|ETHiCS|Flights|KiMCHI|LAZY|PHOENiX|SIGMA|SMURF|SPiRiT)\\b/i"
   },
   {
     "name": "Web T3",
