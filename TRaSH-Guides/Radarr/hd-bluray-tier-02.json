@@ -1,14 +1,14 @@
 {
-  "trash_id": "5608c71bcebba0a5e666223bae8c9227",
+  "trash_id": "c20c8647f2746a1f4c4262b0fbbeeeae",
   "trash_scores": {
-    "default": 1700,
-    "sqp-1-1080p": 1000,
-    "sqp-1-web-1080p": 1000,
-    "sqp-1-2160p": 1000,
-    "sqp-1-web-2160p": 1000,
+    "default": 1750,
+    "sqp-1-1080p": 1050,
+    "sqp-1-web-1080p": 1050,
+    "sqp-1-2160p": 1050,
+    "sqp-1-web-2160p": 1050,
     "french-multi-vf": 0
   },
-  "name": "HD Bluray Tier 03",
+  "name": "HD Bluray Tier 02",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
@@ -48,75 +48,75 @@
       }
     },
     {
-      "name": "BHDStudio",
+      "name": "EA",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(BHDStudio)$"
+        "value": "^(EA)$"
       }
     },
     {
-      "name": "hallowed",
+      "name": "HiDt",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(hallowed)$"
+        "value": "^(HiDt)$"
       }
     },
     {
-      "name": "HiFi",
+      "name": "HiSD",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(HiFi)$"
+        "value": "^(HiSD)$"
       }
     },
     {
-      "name": "HONE",
+      "name": "iFT",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(HONE)$"
+        "value": "^(iFT)$"
       }
     },
     {
-      "name": "LoRD",
+      "name": "NTb",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(LoRD)$"
+        "value": "^(NTb)$"
       }
     },
     {
-      "name": "playHD",
+      "name": "QOQ",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(playHD)$"
+        "value": "^(QOQ)$"
       }
     },
     {
-      "name": "SPHD",
+      "name": "SA89",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(SPHD)$"
+        "value": "^(SA89)$"
       }
     },
     {
-      "name": "W4NK3R",
+      "name": "sbR",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(W4NK3R)$"
+        "value": "^(sbR)$"
       }
     }
   ]

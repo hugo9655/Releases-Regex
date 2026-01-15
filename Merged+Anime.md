@@ -45,7 +45,7 @@ This order is recommended for movies, tv shows and anime.
   ```
 ### **Anime BD Tier 03 (SeaDex Muxers):**
   ```regex
-  (\[(Ayashii|Dekinai|EXP|Headpatter|Kaizoku|Mysteria|Senjou|YURI)\]|-(Ayashii|Dekinai|EXP|Headpatter|Kaizoku|Mysteria|Senjou|YURI)\b|\b(ASC|AssMix|B00BA|CBT|CTR|CyC|Flugel|Galator|GSK[._-]kun|Holomux|IK|AnimeKaizoku|Kametsu|KH|kuchikirukia|LazyRemux|MK|Netaro|Pn8|Pookie|Quetzal|Rasetsu|ShowY|WBDP|WSE|Yoghurt|ZOIO|ZR)\b|-ZR-)|(?<=remux).*\b(NAN0)\b
+  (\[(Ayashii|CRUCiBLE|Dekinai|EXP|Headpatter|Kaizoku|Mysteria|Senjou|YURI)\]|-(Ayashii|CRUCiBLE|Dekinai|EXP|Headpatter|Kaizoku|Mysteria|Senjou|YURI)\b|\b(ASC|AssMix|B00BA|CBT|CTR|CyC|Flugel|Galator|GSK[._-]kun|Holomux|IK|AnimeKaizoku|Kametsu|KH|kuchikirukia|LazyRemux|MK|Netaro|Pn8|Pookie|Quetzal|Rasetsu|ShowY|WBDP|WSE|Yoghurt|ZOIO|ZR)\b|-ZR-)|(?<=remux).*\b(NAN0)\b
   ```
 ### **Anime BD Tier 04 (SeaDex Muxers):**
   ```regex
@@ -61,11 +61,11 @@ This order is recommended for movies, tv shows and anime.
   ```
 ### **Remux Tier 02** / 🍿2️⃣ / 📀2️⃣
   ```regex
-  \bRemux\b.*\b(NCmt|playBD|SiCFoI|SURFINBIRD|TEPES|decibeL|EPSiLON|HiFi|KRaLiMaRKo|PTer|TRiToN)\b
+  \bRemux\b.*\b(ATELiER|NCmt|playBD|SiCFoI|SURFINBIRD|TEPES|12GaugeShotgun|decibeL|EPSiLON|HiFi|KRaLiMaRKo|PTer|TRiToN)\b
   ```
 ### **Remux Tier 03** / 🍿3️⃣ / 📀3️⃣
   ```regex
-  \bRemux\b.*\b(ATELiER|iFT|NTb|PTP|SumVision|TOA)\b
+  \bRemux\b.*\b(iFT|NTb|PTP|SumVision|TOA)\b
   ```
 ### **Bluray Tier 01** / 💿1️⃣
   ```regex
@@ -73,11 +73,11 @@ This order is recommended for movies, tv shows and anime.
   ```
 ### **Bluray Tier 02** / 💿2️⃣
   ```regex
-  ^(?=.*\bBlu[-_]?Ray\b)(?!.*\bRemux\b)(?!.*\bWEB[-_.]?(?:DL|Rip)\b)(?=.*\b(?:EA|HiDt|HiSD|HQMUX|iFT|QOQ|SA89|sbR)\b).*
+  ^(?=.*\bBlu[-_]?Ray\b)(?!.*\bRemux\b)(?!.*\bWEB[-_.]?(?:DL|Rip)\b)(?=.*\b(?:ATELiER|EA|HiDt|HiSD|HQMUX|iFT|QOQ|SA89|sbR)\b).*
   ```
 ### **Bluray Tier 03** / 💿3️⃣
   ```regex
-  ^(?=.*\bBlu[-_]?Ray\b)(?!.*\bRemux\b)(?!.*\bWEB[-_.]?(?:DL|Rip)\b)(?=.*\b(?:ATELiER|BHDStudio|hallowed|HiFi|HONE|LoRD|SPHD|WEBDV|playHD)\b).*
+  ^(?=.*\bBlu[-_]?Ray\b)(?!.*\bRemux\b)(?!.*\bWEB[-_.]?(?:DL|Rip)\b)(?=.*\b(?:BHDStudio|hallowed|HiFi|HONE|LoRD|SPHD|WEBDV|playHD)\b).*
   ```
 ### **Anime BD Tier 06 (FanSubs):**
   ```regex
@@ -121,11 +121,11 @@ This order is recommended for movies, tv shows and anime.
   ```
 ### **WEB Tier 03** / 🌐3️⃣
   ```regex
-  ^(?=.*\bWEB[-_.]?(?:DL|RIP)\b)(?=.*\b(?:DRACULA|GNOMiSSiON|NINJACENTRAL|SLiGNOME|SwAgLaNdEr|T4H|ViSiON)\b).*
+  ^(?=.*\bWEB[-_.]?(?:DL|RIP)\b)(?=.*\b(?:Dooky|DRACULA|GNOMiSSiON|NINJACENTRAL|SLiGNOME|SwAgLaNdEr|T4H|ViSiON)\b).*
   ```
 ### **Anime Web Tier 06 (FanSubs):**
   ```regex
-  (\b(DameDesuYo)\b)|\[AC\]|-AC\b
+  (\b(DameDesuYo|KawaSubs)\b)|\[AC\]|-AC\b
   ```
 ### **WEB Scene** / 🌐🎭
   ```regex

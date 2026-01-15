@@ -1,113 +1,101 @@
 {
-  "trash_id": "c20c8647f2746a1f4c4262b0fbbeeeae",
+  "trash_id": "8a1d0c3d7497e741736761a1da866a2e",
   "trash_scores": {
-    "default": 1750,
-    "sqp-1-1080p": 1050,
-    "sqp-1-web-1080p": 1050,
-    "sqp-1-2160p": 1050,
-    "sqp-1-web-2160p": 1050,
+    "default": 1850,
+    "anime-sonarr": 1000,
     "french-multi-vf": 0
   },
-  "name": "HD Bluray Tier 02",
+  "name": "Remux Tier 02",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "BLURAY",
+      "name": "Remux",
       "implementation": "SourceSpecification",
       "negate": false,
       "required": true,
       "fields": {
-        "value": 9
+        "value": 7
       }
     },
     {
-      "name": "Not REMUX",
-      "implementation": "QualityModifierSpecification",
-      "negate": true,
-      "required": true,
-      "fields": {
-        "value": 5
-      }
-    },
-    {
-      "name": "Not 2160p",
-      "implementation": "ResolutionSpecification",
-      "negate": true,
-      "required": true,
-      "fields": {
-        "value": 2160
-      }
-    },
-    {
-      "name": "EA",
+      "name": "12GaugeShotgun",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(EA)$"
+        "value": "^(12GaugeShotgun)$"
       }
     },
     {
-      "name": "HiDt",
+      "name": "decibeL",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(HiDt)$"
+        "value": "^(decibeL)$"
       }
     },
     {
-      "name": "HiSD",
+      "name": "EPSiLON",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(HiSD)$"
+        "value": "^(EPSiLON)$"
       }
     },
     {
-      "name": "iFT",
+      "name": "HiFi",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(iFT)$"
+        "value": "^(HiFi)$"
       }
     },
     {
-      "name": "NTb",
+      "name": "KRaLiMaRKo",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(NTb)$"
+        "value": "^(KRaLiMaRKo)$"
       }
     },
     {
-      "name": "QOQ",
+      "name": "playBD",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(QOQ)$"
+        "value": "^(playBD)$"
       }
     },
     {
-      "name": "SA89",
+      "name": "PTer",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(SA89)$"
+        "value": "^(PTer)$"
       }
     },
     {
-      "name": "sbR",
+      "name": "SiCFoI",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(sbR)$"
+        "value": "^(SiCFoI)$"
+      }
+    },
+    {
+      "name": "TRiToN",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(TRiToN)$"
       }
     }
   ]

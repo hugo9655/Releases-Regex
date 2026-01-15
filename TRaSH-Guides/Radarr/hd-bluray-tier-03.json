@@ -1,38 +1,59 @@
 {
-  "trash_id": "8a1d0c3d7497e741736761a1da866a2e",
+  "trash_id": "5608c71bcebba0a5e666223bae8c9227",
   "trash_scores": {
-    "default": 1850,
-    "anime-sonarr": 1000,
+    "default": 1700,
+    "sqp-1-1080p": 1000,
+    "sqp-1-web-1080p": 1000,
+    "sqp-1-2160p": 1000,
+    "sqp-1-web-2160p": 1000,
     "french-multi-vf": 0
   },
-  "name": "Remux Tier 02",
+  "name": "HD Bluray Tier 03",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "Remux",
+      "name": "BLURAY",
       "implementation": "SourceSpecification",
       "negate": false,
       "required": true,
       "fields": {
-        "value": 7
+        "value": 9
       }
     },
     {
-      "name": "decibeL",
+      "name": "Not REMUX",
+      "implementation": "QualityModifierSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": 5
+      }
+    },
+    {
+      "name": "Not 2160p",
+      "implementation": "ResolutionSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": 2160
+      }
+    },
+    {
+      "name": "BHDStudio",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(decibeL)$"
+        "value": "^(BHDStudio)$"
       }
     },
     {
-      "name": "EPSiLON",
+      "name": "hallowed",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(EPSiLON)$"
+        "value": "^(hallowed)$"
       }
     },
     {
@@ -45,48 +66,48 @@
       }
     },
     {
-      "name": "KRaLiMaRKo",
+      "name": "HONE",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(KRaLiMaRKo)$"
+        "value": "^(HONE)$"
       }
     },
     {
-      "name": "playBD",
+      "name": "LoRD",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(playBD)$"
+        "value": "^(LoRD)$"
       }
     },
     {
-      "name": "PTer",
+      "name": "playHD",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(PTer)$"
+        "value": "^(playHD)$"
       }
     },
     {
-      "name": "SiCFoI",
+      "name": "SPHD",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(SiCFoI)$"
+        "value": "^(SPHD)$"
       }
     },
     {
-      "name": "TRiToN",
+      "name": "W4NK3R",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(TRiToN)$"
+        "value": "^(W4NK3R)$"
       }
     }
   ]

@@ -1,11 +1,9 @@
 {
-  "trash_id": "af94e0fe497124d1f9ce732069ec8c3b",
+  "trash_id": "a786fbc0eae05afe3bb51aee3c83a9d4",
   "trash_scores": {
-    "default": 1600,
-    "anime-radarr": 150,
-    "french-multi-vf": 0
+    "default": 100
   },
-  "name": "WEB Tier 03",
+  "name": "Anime Web Tier 06 (FanSubs)",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
@@ -27,66 +25,66 @@
       }
     },
     {
-      "name": "GNOMiSSiON",
-      "implementation": "ReleaseGroupSpecification",
+      "name": "Asenshi",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(GNOMiSSiON)$"
+        "value": "\\b(Asenshi)\\b"
       }
     },
     {
-      "name": "NINJACENTRAL",
-      "implementation": "ReleaseGroupSpecification",
+      "name": "Chihiro",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(NINJACENTRAL)$"
+        "value": "\\[Chihiro\\]|-Chihiro\\b"
       }
     },
     {
-      "name": "NPMS",
-      "implementation": "ReleaseGroupSpecification",
+      "name": "Commie",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(NPMS)$"
+        "value": "\\b(Commie)\\b"
       }
     },
     {
-      "name": "ROCCaT",
-      "implementation": "ReleaseGroupSpecification",
+      "name": "DameDesuYo",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(ROCCaT)$"
+        "value": "\\b(DameDesuYo)\\b"
       }
     },
     {
-      "name": "SiGMA",
-      "implementation": "ReleaseGroupSpecification",
+      "name": "Doki",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(SiGMA)$"
+        "value": "\\[Doki\\]|-Doki\\b"
       }
     },
     {
-      "name": "SLiGNOME",
-      "implementation": "ReleaseGroupSpecification",
+      "name": "KawaSubs",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(SLiGNOME)$"
+        "value": "\\b(KawaSubs)\\b"
       }
     },
     {
-      "name": "SwAgLaNdEr",
-      "implementation": "ReleaseGroupSpecification",
+      "name": "Tsundere",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(SwAgLaNdEr)$"
+        "value": "\\[Tsundere\\]|-Tsundere(?!-)\\b"
       }
     }
   ]

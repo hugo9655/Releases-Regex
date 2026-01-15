@@ -5,11 +5,11 @@
   },
   {
     "name": "Remux T2",
-    "pattern": "/\\bremux\\b.*\\b(NCmt|playBD|PTer|TRiToN|FraMeSToR|iFT|NTb)\\b/i"
+    "pattern": "/\\bremux\\b.*\\b(NCmt|playBD|PTer|TRiToN|FraMeSToR|iFT|NTb|ATELiER|12GaugeShotgun)\\b/i"
   },
   {
     "name": "Remux T3",
-    "pattern": "/\\bremux\\b.*\\b(ATELiER|PTP|SumVision|TOA|KRaLiMaRKo)\\b/i"
+    "pattern": "/\\bremux\\b.*\\b(PTP|SumVision|TOA|KRaLiMaRKo)\\b/i"
   },
   {
     "name": "Bluray T1",
@@ -17,11 +17,11 @@
   },
   {
     "name": "Bluray T2",
-    "pattern": "/(?<!remux.*)(blu[ .\\-_]?ray|((bd|br)[ .\\-_]?rip))(?!.*remux).*\\b(HiDt|HiSD|QOQ)\\b/i"
+    "pattern": "/(?<!remux.*)(blu[ .\\-_]?ray|((bd|br)[ .\\-_]?rip))(?!.*remux).*\\b(HiDt|HiSD|QOQ|ATELiER)\\b/i"
   },
   {
     "name": "Bluray T3",
-    "pattern": "/(?<!remux.*)(blu[ .\\-_]?ray|((bd|br)[ .\\-_]?rip))(?!.*remux).*\\b(ATELiER|hallowed|HiFi|HONE|SPHD|WEBDV|playHD|iFT|NTb|D-Z0N3|EA|HANDJOB|SA89|sbR|LoRD|Flights|CtrlHD)\\b/i"
+    "pattern": "/(?<!remux.*)(blu[ .\\-_]?ray|((bd|br)[ .\\-_]?rip))(?!.*remux).*\\b(hallowed|HiFi|HONE|SPHD|WEBDV|playHD|iFT|NTb|D-Z0N3|EA|HANDJOB|SA89|sbR|LoRD|Flights|CtrlHD)\\b/i"
   },
   {
     "name": "Web T1",
@@ -33,7 +33,7 @@
   },
   {
     "name": "Web T3",
-    "pattern": "/(?<=(web[ .\\-_]?(dl|rip)).*)\\b(GNOMiSSiON|NINJACENTRAL|ROCCaT|SLiGNOME|SwAgLaNdEr|T4H|DRACULA|ViSiON)\\b/i"
+    "pattern": "/(?<=(web[ .\\-_]?(dl|rip)).*)\\b(GNOMiSSiON|NINJACENTRAL|ROCCaT|SLiGNOME|SwAgLaNdEr|T4H|DRACULA|ViSiON|Dooky)\\b/i"
   },
   {
     "name": "Bad",

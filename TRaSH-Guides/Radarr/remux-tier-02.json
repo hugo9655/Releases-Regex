@@ -1,83 +1,74 @@
 {
-  "trash_id": "d84935abd3f8556dcd51d4f27e22d0a6",
+  "trash_id": "9f98181fe5a3fbeb0cc29340da2a468a",
   "trash_scores": {
-    "default": 1600,
-    "anime-sonarr": 150,
+    "default": 1900,
+    "anime-radarr": 1000,
     "french-multi-vf": 0
   },
-  "name": "WEB Tier 03",
+  "name": "Remux Tier 02",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "DRACULA",
+      "name": "Remux",
+      "implementation": "QualityModifierSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 5
+      }
+    },
+    {
+      "name": "ATELiER",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(DRACULA)$"
+        "value": "^(ATELiER)$"
       }
     },
     {
-      "name": "NINJACENTRAL",
+      "name": "NCmt",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(NINJACENTRAL)$"
+        "value": "^(NCmt)$"
       }
     },
     {
-      "name": "SLiGNOME",
+      "name": "playBD",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(SLiGNOME)$"
+        "value": "^(playBD)$"
       }
     },
     {
-      "name": "SwAgLaNdEr",
+      "name": "SiCFoI",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(SwAgLaNdEr)$"
+        "value": "^(SiCFoI)$"
       }
     },
     {
-      "name": "T4H",
+      "name": "SURFINBIRD",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(T4H)$"
+        "value": "^(SURFINBIRD)$"
       }
     },
     {
-      "name": "ViSiON",
+      "name": "TEPES",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(ViSiON)$"
-      }
-    },
-    {
-      "name": "WEBDL",
-      "implementation": "SourceSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": 3
-      }
-    },
-    {
-      "name": "WEBRIP",
-      "implementation": "SourceSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": 4
+        "value": "^(TEPES)$"
       }
     }
   ]

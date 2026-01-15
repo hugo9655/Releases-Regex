@@ -15,11 +15,11 @@ This section merges **Movies** and **TV Shows** regexes together for a more stre
   ```
 ### **Remux Tier 02** / 🍿2️⃣ / 📀2️⃣
   ```regex
-  \bRemux\b.*\b(NCmt|playBD|SiCFoI|SURFINBIRD|TEPES|decibeL|EPSiLON|HiFi|KRaLiMaRKo|PTer|TRiToN)\b
+  \bRemux\b.*\b(ATELiER|NCmt|playBD|SiCFoI|SURFINBIRD|TEPES|12GaugeShotgun|decibeL|EPSiLON|HiFi|KRaLiMaRKo|PTer|TRiToN)\b
   ```
 ### **Remux Tier 03** / 🍿3️⃣ / 📀3️⃣
   ```regex
-  \bRemux\b.*\b(ATELiER|iFT|NTb|PTP|SumVision|TOA)\b
+  \bRemux\b.*\b(iFT|NTb|PTP|SumVision|TOA)\b
   ```
 ### **Bluray Tier 01** / 💿1️⃣
   ```regex
@@ -27,11 +27,11 @@ This section merges **Movies** and **TV Shows** regexes together for a more stre
   ```
 ### **Bluray Tier 02** / 💿2️⃣
   ```regex
-  ^(?=.*\bBlu[-_]?Ray\b)(?!.*\bRemux\b)(?!.*\bWEB[-_.]?(?:DL|Rip)\b)(?=.*\b(?:EA|HiDt|HiSD|HQMUX|iFT|QOQ|SA89|sbR)\b).*
+  ^(?=.*\bBlu[-_]?Ray\b)(?!.*\bRemux\b)(?!.*\bWEB[-_.]?(?:DL|Rip)\b)(?=.*\b(?:ATELiER|EA|HiDt|HiSD|HQMUX|iFT|QOQ|SA89|sbR)\b).*
   ```
 ### **Bluray Tier 03** / 💿3️⃣
   ```regex
-  ^(?=.*\bBlu[-_]?Ray\b)(?!.*\bRemux\b)(?!.*\bWEB[-_.]?(?:DL|Rip)\b)(?=.*\b(?:ATELiER|BHDStudio|hallowed|HiFi|HONE|LoRD|SPHD|WEBDV|playHD)\b).*
+  ^(?=.*\bBlu[-_]?Ray\b)(?!.*\bRemux\b)(?!.*\bWEB[-_.]?(?:DL|Rip)\b)(?=.*\b(?:BHDStudio|hallowed|HiFi|HONE|LoRD|SPHD|WEBDV|playHD)\b).*
   ```
 ### **WEB Tier 01** / 🌐1️⃣
   ```regex
@@ -43,7 +43,7 @@ This section merges **Movies** and **TV Shows** regexes together for a more stre
   ```
 ### **WEB Tier 03** / 🌐3️⃣
   ```regex
-  ^(?=.*\bWEB[-_.]?(?:DL|RIP)\b)(?=.*\b(?:DRACULA|GNOMiSSiON|NINJACENTRAL|SLiGNOME|SwAgLaNdEr|T4H|ViSiON)\b).*
+  ^(?=.*\bWEB[-_.]?(?:DL|RIP)\b)(?=.*\b(?:Dooky|DRACULA|GNOMiSSiON|NINJACENTRAL|SLiGNOME|SwAgLaNdEr|T4H|ViSiON)\b).*
   ```
 ### **WEB Scene** / 🌐🎭
   ```regex
